@@ -50,7 +50,7 @@ body{overflow-x:hidden}
 @media(max-width:820px){
  body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
  .mobilehead{padding:11px 16px;height:57px}
- .mobilehead button{border-radius:7px;min-height:36px}
+ .mobilehead button{border-radius:7px;min-height:40px}.mobilehead .mobiletools{display:flex;gap:7px}.mobilehead #mobilefont{min-width:43px}
  .mobilebottom{display:flex;align-items:center;justify-content:space-around;position:fixed;bottom:0;left:0;right:0;z-index:13;background:#17232df5;border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));backdrop-filter:blur(18px)}
  .mobilebottom a{color:#aeb9ba;text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:2px;width:25%;padding:4px 1px;font:11px ui-sans-serif,system-ui,sans-serif;min-height:51px;justify-content:center}
  .mobilebottom a.on{color:#f0e6dc}
@@ -99,7 +99,7 @@ body{overflow-x:hidden}
  .mast{padding-inline:18px}
  .reading{padding-inline:16px}
 }
-</style></head><body><div class="progress" id="progress"></div><div class="grain"></div><div class="mobilehead"><span>凌晨失物处</span><button id="menubtn" aria-label="打开目录">☰ 目录</button></div><div class="shell"><aside class="sidebar" id="sidebar"><div class="brand"><small>ARCHIVE / 000</small><strong>凌晨失物处</strong><span>MIDNIGHT LOST & FOUND</span></div><div class="navsection">阅读目录 / INDEX</div><nav id="nav"></nav><div class="navsection">创作资料 / WORKSHOP</div><nav id="worknav"></nav><div class="sidefoot">一个关于遗失、存在与记忆的故事。<br><a href="https://github.com/Tera-Dark/midnight-lost-and-found" target="_blank" rel="noopener">GitHub · 查看项目</a></div></aside><main class="main"><div class="topbar"><span>LOST OBJECTS / REMEMBERED PEOPLE</span><button id="fontbtn" aria-label="切换字号">Aa · 字号</button></div><div id="home" class="mast"><div class="eyebrow">ORIGINAL URBAN FANTASY / WORLD ARCHIVE</div><h1>凌晨<br>失物处</h1><div class="subtitle">MIDNIGHT LOST & FOUND</div><div class="quote">“请将他归还给她。<br>认领期限：永久。”</div><p>一座再寻常不过的现代城市。一间只在凌晨接待来客的失物事务所。这里收藏着过期的车票、无法保存的照片，以及那些连主人也不再记得的过去。</p><p>苏杳替别人找回遗失之物；江寻却是一个连自己曾经存在过都无法证明的人。</p><div class="chips"><span>现代都市奇幻</span><span>微悬疑</span><span>原创 OC</span><span>角色驱动</span></div><div class="featuregrid" id="features"></div></div><div id="reader" class="reading hidden"><div class="sectiontitle"><div class="chapterlabel" id="chapterlabel">ARCHIVE</div><h2 id="readtitle"></h2></div><div id="notice"></div><div id="article" class="article" aria-live="polite"></div><div class="controls"><button id="prev">← 上一章</button><button id="next">下一章 →</button></div></div><footer>© Midnight Lost & Found · Tera-Dark · 所有设定与角色归原创作者所有</footer></main></div>
+</style></head><body><div class="progress" id="progress"></div><div class="grain"></div><div class="mobilehead"><span>凌晨失物处</span><div class="mobiletools"><button id="mobilefont" aria-label="切换阅读字号" type="button">Aa</button><button id="menubtn" aria-label="打开目录" type="button">☰ 目录</button></div></div><div class="shell"><aside class="sidebar" id="sidebar"><div class="brand"><small>ARCHIVE / 000</small><strong>凌晨失物处</strong><span>MIDNIGHT LOST & FOUND</span></div><div class="navsection">阅读目录 / INDEX</div><nav id="nav"></nav><div class="navsection">创作资料 / WORKSHOP</div><nav id="worknav"></nav><div class="sidefoot">一个关于遗失、存在与记忆的故事。<br><a href="https://github.com/Tera-Dark/midnight-lost-and-found" target="_blank" rel="noopener">GitHub · 查看项目</a></div></aside><main class="main"><div class="topbar"><span>LOST OBJECTS / REMEMBERED PEOPLE</span><button id="fontbtn" aria-label="切换字号">Aa · 字号</button></div><div id="home" class="mast"><div class="eyebrow">ORIGINAL URBAN FANTASY / WORLD ARCHIVE</div><h1>凌晨<br>失物处</h1><div class="subtitle">MIDNIGHT LOST & FOUND</div><div class="quote">“请将他归还给她。<br>认领期限：永久。”</div><p>一座再寻常不过的现代城市。一间只在凌晨接待来客的失物事务所。这里收藏着过期的车票、无法保存的照片，以及那些连主人也不再记得的过去。</p><p>苏杳替别人找回遗失之物；江寻却是一个连自己曾经存在过都无法证明的人。</p><div class="chips"><span>现代都市奇幻</span><span>微悬疑</span><span>原创 OC</span><span>角色驱动</span></div><div class="featuregrid" id="features"></div></div><div id="reader" class="reading hidden"><div class="sectiontitle"><div class="chapterlabel" id="chapterlabel">ARCHIVE</div><h2 id="readtitle"></h2></div><div id="notice"></div><div id="article" class="article" aria-live="polite"></div><div class="controls"><button id="prev">← 上一章</button><button id="next">下一章 →</button></div></div><footer>© Midnight Lost & Found · Tera-Dark · 所有设定与角色归原创作者所有</footer></main></div>
 <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script><script>
 const pages=[{id:"home",title:"首页 · 作品序言",tag:"INTRO"},{id:"world",title:"世界观",file:"docs/01-world-core.md",tag:"WORLD / CANON"},{id:"characters",title:"人物档案",file:"site/characters.md",tag:"CHARACTERS / CANON"},{id:"suyao",title:"苏杳 · 人设卡",file:"site/su-yao-card.md",tag:"CHARACTER / 001"},{id:"jiang",title:"江寻 · 人设卡",file:"site/jiang-xun-card.md",tag:"CHARACTER / 002"},{id:"office",title:"凌晨事务所",file:"site/office.md",tag:"LOCATION / CANON"},{id:"cases",title:"失物档案",file:"site/lost-property.md",tag:"CASES / SEEDS"},{id:"updates",title:"更新手记",file:"site/updates.md",tag:"CHANGELOG"}];
 const work=[{id:"proposal",title:"异常机制 · 讨论稿",file:"docs/02-anomaly-rules-proposal.md",tag:"DRAFT / NOT CANON",draft:true},{id:"engine",title:"案件创作 · 讨论稿",file:"docs/03-case-engine.md",tag:"DRAFT / NOT CANON",draft:true},{id:"decisions",title:"待定问题",file:"docs/04-decisions.md",tag:"OPEN QUESTIONS",draft:true}];const all=[...pages,...work];const repo="https://raw.githubusercontent.com/Tera-Dark/midnight-lost-and-found/main/";const cache=new Map();const el=id=>document.getElementById(id);
@@ -187,6 +187,16 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
    const t=e.target.closest("[data-jump]");
    if(t){e.preventDefault();document.getElementById(t.dataset.jump)?.scrollIntoView({behavior:"smooth",block:"start"});}
  });
+ const mobileFont=document.getElementById("mobilefont");
+ try{if(localStorage.getItem("mlf-font-large")==="1")document.body.classList.add("large");}catch(e){}
+ mobileFont.onclick=()=>{
+   const large=document.body.classList.toggle("large");
+   mobileFont.setAttribute("aria-pressed",String(large));
+   try{localStorage.setItem("mlf-font-large",large?"1":"0");}catch(e){}
+ };
+ mobileFont.setAttribute("aria-pressed",String(document.body.classList.contains("large")));
+ const desktopFont=document.getElementById("fontbtn");
+ desktopFont.onclick=mobileFont.onclick;
  const backdrop=document.getElementById("menubg");
  const toggle=document.getElementById("menubtn");
  const closeMenu=()=>{s.classList.remove("open");backdrop.classList.remove("open");toggle.setAttribute("aria-expanded","false");};
