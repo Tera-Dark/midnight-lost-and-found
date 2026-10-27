@@ -3,6 +3,102 @@
 <style>
 :root{color-scheme:dark;--bg:#111a23;--panel:#19252f;--panel2:#20303b;--ink:#e8e7e2;--muted:#a4adaf;--line:#35434a;--accent:#c6a79a;--red:#9f6769}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Serif SC","Songti SC","Source Han Serif SC",Georgia,serif;line-height:1.9}button,a{font:inherit}a{color:inherit}button{cursor:pointer}.grain{position:fixed;inset:0;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}.shell{display:grid;grid-template-columns:255px minmax(0,1fr);min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;border-right:1px solid var(--line);padding:33px 18px;background:#141e27;overflow:auto}.brand{padding:0 15px 28px;border-bottom:1px solid var(--line)}.brand small,.eyebrow,.chapterlabel{font:11px/1.7 ui-sans-serif,system-ui,sans-serif;letter-spacing:.21em;color:var(--accent);text-transform:uppercase}.brand strong{display:block;font-size:25px;letter-spacing:.18em;margin-top:12px;font-weight:500}.brand span{display:block;color:var(--muted);font-size:11px;letter-spacing:.09em;margin-top:7px}.navsection{margin:27px 12px 8px;font:10px ui-sans-serif,system-ui,sans-serif;color:#809095;letter-spacing:.19em}.navbutton{display:flex;align-items:center;gap:12px;width:100%;border:0;background:transparent;color:#bac3c4;border-radius:7px;padding:12px 13px;text-align:left;font-size:13px;letter-spacing:.04em}.navbutton:hover,.navbutton.active{background:#27363f;color:#fff}.navbutton.active{box-shadow:inset 2px 0 var(--accent)}.navbutton i{font:11px ui-sans-serif,system-ui,sans-serif;color:#8b9799;font-style:normal}.sidefoot{margin-top:35px;padding:20px 12px;border-top:1px solid var(--line);font:12px ui-sans-serif,system-ui,sans-serif;color:var(--muted)}.sidefoot a{display:inline-block;margin-top:10px;text-decoration:none;color:var(--accent)}.main{min-width:0}.topbar{height:65px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,82px);font:11px ui-sans-serif,system-ui,sans-serif;letter-spacing:.13em;color:#9ba7a9}.topbar button{background:none;border:0;color:var(--muted)}.mast{max-width:970px;margin:auto;padding:84px 68px 64px;position:relative}.mast:before{content:"";position:absolute;right:7%;top:72px;width:200px;height:200px;border:1px solid #3b4149;border-radius:50%;opacity:.45}.mast:after{content:"";position:absolute;right:13%;top:105px;width:125px;height:125px;border:1px solid #5e4b50;border-radius:50%;opacity:.3}.mast h1{font-size:clamp(38px,5vw,68px);letter-spacing:.14em;font-weight:400;line-height:1.3;margin:22px 0}.subtitle{font-size:13px;letter-spacing:.25em;color:var(--muted)}.quote{border-left:2px solid var(--red);padding:12px 0 12px 20px;color:#d7c6bd;font-size:clamp(16px,2vw,22px);margin:35px 0 30px;max-width:620px}.mast p{max-width:620px;color:#bbc3c4;font-size:15px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:25px}.chips span{font:11px ui-sans-serif,system-ui,sans-serif;padding:5px 10px;border:1px solid var(--line);border-radius:2px;color:var(--muted)}.featuregrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:48px}.feature{padding:24px;border:1px solid var(--line);background:#19242d;text-align:left;color:var(--ink);transition:background .2s}.feature:hover{background:#25343e}.feature small{display:block;font:11px ui-sans-serif,system-ui,sans-serif;color:var(--accent);letter-spacing:.1em}.feature strong{display:block;font-size:21px;font-weight:400;margin:10px 0}.feature span{color:var(--muted);font-size:12px}.reading{max-width:900px;margin:0 auto;padding:75px 65px 120px}.reading .sectiontitle{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:35px}.reading .sectiontitle h2{font-weight:400;font-size:32px;letter-spacing:.08em;margin:8px 0}.article{font-size:15px;color:#d5d9d7}.article h1{font-size:32px;font-weight:500;letter-spacing:.08em;line-height:1.5}.article h2{font-size:23px;font-weight:500;margin:55px 0 14px;border-bottom:1px solid var(--line);padding-bottom:13px}.article h3{font-size:18px;font-weight:500;margin-top:38px}.article p,.article li{line-height:2.15}.article strong{color:#eee3d7}.article blockquote{border-left:2px solid var(--red);margin:25px 0;padding:5px 20px;background:#1a2630;color:#d8c1b7}.article hr{border:0;border-top:1px solid var(--line);margin:50px 0}.article a{color:var(--accent)}.article table{border-collapse:collapse;width:100%;display:block;overflow:auto}.article th,.article td{border-bottom:1px solid var(--line);text-align:left;padding:12px;font-size:13px}.article ul,.article ol{padding-left:25px}.notice{border:1px solid #5d4f4c;background:#2b282d;padding:13px 17px;margin:0 0 25px;color:#d4b4a5;font:12px/1.8 ui-sans-serif,system-ui,sans-serif}.loading{font-size:13px;color:var(--muted)}.controls{margin-top:55px;display:flex;justify-content:space-between;gap:12px}.controls button{background:#23313b;border:1px solid var(--line);padding:11px 15px;color:var(--ink);font:12px ui-sans-serif,system-ui,sans-serif}.progress{height:2px;background:var(--accent);position:fixed;top:0;left:0;z-index:10;width:0}.mobilehead{display:none}.hidden{display:none!important}footer{border-top:1px solid var(--line);padding:25px 65px;color:var(--muted);font:11px ui-sans-serif,system-ui,sans-serif;text-align:center}body.large .article{font-size:18px}
 @media(max-width:820px){.shell{display:block}.sidebar{position:fixed;width:290px;left:0;top:0;bottom:0;z-index:20;transform:translateX(-100%);transition:transform .2s;box-shadow:20px 0 60px #0008}.sidebar.open{transform:translateX(0)}.mobilehead{display:flex;align-items:center;justify-content:space-between;padding:15px 21px;position:sticky;top:0;z-index:12;background:#141e27;border-bottom:1px solid var(--line);font-size:13px;letter-spacing:.12em}.mobilehead button{border:1px solid var(--line);background:#22303a;color:#fff;padding:7px 12px}.topbar{display:none}.mast{padding:66px 25px 55px}.mast:before{width:140px;height:140px;right:1%;top:42px}.mast:after{width:85px;height:85px;right:8%;top:60px}.mast h1{font-size:40px}.featuregrid{grid-template-columns:1fr;margin-top:30px}.reading{padding:44px 24px 85px}.article h1{font-size:28px}.article h2{font-size:21px}footer{padding:22px}.quote{margin-top:30px}}
+
+/* v1.2 Reader UX: information architecture + mobile-first navigation */
+:root{--tap:48px;--reading-width:720px}
+body{overflow-x:hidden}
+.navbutton{min-height:46px;line-height:1.45}
+.navbutton.active{background:#2b3a44}
+.article{max-width:var(--reading-width);margin-inline:auto;overflow-wrap:anywhere}
+.article p{margin:1em 0 1.28em}
+.article h2{scroll-margin-top:100px}
+.article img{height:auto;max-width:100%;border-radius:8px}
+.article pre{max-width:100%;overflow:auto;padding:16px;border:1px solid var(--line);background:#111c25;border-radius:8px;font-size:12px;line-height:1.55}
+.article code{overflow-wrap:anywhere}
+.article .subtle{color:var(--muted)}
+.chapter-index{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:10px 0 24px;padding:3px 0 12px}
+.chapter-index::-webkit-scrollbar{display:none}
+.chapter-index a{white-space:nowrap;text-decoration:none;color:#c7d0cd;background:#24313a;border:1px solid #34434b;border-radius:28px;padding:6px 13px;font:12px ui-sans-serif,system-ui,sans-serif}
+.chapter-index a:focus-visible{outline:2px solid var(--accent)}
+.character-hero{display:grid;grid-template-columns:minmax(160px,40%) 1fr;gap:24px;align-items:center;border:1px solid var(--line);background:#eae8e4;border-radius:12px;overflow:hidden;margin:0 0 30px}
+.character-hero .portrait{min-height:315px;height:100%;display:flex;align-items:center;justify-content:center}
+.character-hero .portrait img{display:block;width:100%;height:100%;max-height:430px;object-fit:contain}
+.character-hero .info{padding:18px 22px;color:#2d333c}
+.character-hero .info span{font:11px ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;color:#836465}
+.character-hero .info h3{font-size:28px;font-weight:500;margin:14px 0}
+.character-hero .info p{font-size:13px;line-height:1.9;color:#535763}
+.character-hero .info a{display:inline-block;border-bottom:1px solid #aa8e86;text-decoration:none;color:#6e5150;padding-bottom:3px;font-size:13px}
+.character-hero img{filter:none}
+.cast-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;max-width:720px;margin:32px auto 25px}
+.cast-link{border:1px solid var(--line);background:#24303a;border-radius:9px;overflow:hidden;text-decoration:none;transition:transform .2s}
+.cast-link:hover{transform:translateY(-3px)}
+.cast-link .img{height:270px;background:#eeedea;display:flex;justify-content:center}
+.cast-link .img img{height:100%;max-width:100%;object-fit:contain}
+.cast-link .label{padding:15px}
+.cast-link .label small{display:block;font:10px ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;color:var(--accent)}
+.cast-link .label strong{font-size:19px;font-weight:500}
+.cast-link .label p{font-size:12px;margin:5px 0;color:var(--muted)}
+.reading details{border:1px solid var(--line);border-radius:9px;padding:14px 18px;margin-top:30px;background:var(--panel)}
+.reading details summary{cursor:pointer;color:var(--accent);font:13px/1.7 ui-sans-serif,system-ui,sans-serif}
+.reading details pre{margin-top:15px}
+.sidebar .navsection{margin-top:22px}
+.sidebar .navgroup{margin-bottom:14px}
+.mobilebottom{display:none}
+.menubg{display:none}
+.quick-link{color:var(--accent);text-decoration:none}
+.intro-heading{font:12px ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);border-top:1px solid var(--line);padding-top:24px;margin-top:35px}
+@media(max-width:820px){
+ body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+ .mobilehead{padding:11px 16px;height:57px}
+ .mobilehead button{border-radius:7px;min-height:36px}
+ .mobilebottom{display:flex;align-items:center;justify-content:space-around;position:fixed;bottom:0;left:0;right:0;z-index:13;background:#17232df5;border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));backdrop-filter:blur(18px)}
+ .mobilebottom a{color:#aeb9ba;text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:2px;width:25%;padding:4px 1px;font:11px ui-sans-serif,system-ui,sans-serif;min-height:51px;justify-content:center}
+ .mobilebottom a.on{color:#f0e6dc}
+ .mobilebottom svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.7}
+ .sidebar{width:min(85vw,330px);padding-top:22px}
+ .sidebar.open{transform:translateX(0);box-shadow:10px 0 0 100vw #0009}
+ .menubg.open{display:block;position:fixed;inset:0;z-index:19}
+ .mast{padding:43px 23px 45px}
+ .mast h1{font-size:clamp(37px,10vw,50px);margin:16px 0;letter-spacing:.09em}
+ .quote{font-size:18px}
+ .reading{padding:27px 20px 70px}
+ .reading .sectiontitle{margin-bottom:25px;padding-bottom:13px}
+ .reading .sectiontitle h2{font-size:27px}
+ .article{font-size:15.5px;line-height:1.88}
+ .article p,.article li{line-height:1.92}
+ .article h1{font-size:25px}
+ .article h2{font-size:21px;margin-top:39px}
+ .featuregrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .feature{padding:14px 13px;min-height:125px}
+ .feature strong{font-size:17px;margin:10px 0 3px}
+ .feature span{font-size:11px}
+ .feature small{font-size:9px}
+ .character-hero{grid-template-columns:41% 1fr;gap:8px}
+ .character-hero .portrait{min-height:250px}
+ .character-hero .portrait img{max-height:300px}
+ .character-hero .info{padding:12px 10px}
+ .character-hero .info h3{font-size:21px;margin:8px 0}
+ .character-hero .info p{font-size:11px;line-height:1.65}
+ .character-hero .info span{font-size:8px}
+ .character-hero .info a{font-size:11px}
+ .cast-grid{gap:9px}
+ .cast-link .img{height:215px}
+ .cast-link .label{padding:11px}
+ .cast-link .label strong{font-size:16px}
+ .cast-link .label p{font-size:11px}
+ .controls button{min-height:48px;flex:1;font-size:12px}
+ .article table{font-size:12px}
+ .mobile-reader-actions{display:flex;gap:8px;margin:20px 0 5px}
+ .mobile-reader-actions button{border:1px solid var(--line);background:#26343c;color:var(--ink);border-radius:8px;padding:8px 12px;font-size:12px;min-height:40px}
+}
+@media(max-width:360px){
+ .character-hero{grid-template-columns:38% 1fr}
+ .character-hero .info{padding:10px 7px}
+ .character-hero .portrait{min-height:210px}
+ .cast-link .img{height:170px}
+ .mast{padding-inline:18px}
+ .reading{padding-inline:16px}
+}
 </style></head><body><div class="progress" id="progress"></div><div class="grain"></div><div class="mobilehead"><span>凌晨失物处</span><button id="menubtn" aria-label="打开目录">☰ 目录</button></div><div class="shell"><aside class="sidebar" id="sidebar"><div class="brand"><small>ARCHIVE / 000</small><strong>凌晨失物处</strong><span>MIDNIGHT LOST & FOUND</span></div><div class="navsection">阅读目录 / INDEX</div><nav id="nav"></nav><div class="navsection">创作资料 / WORKSHOP</div><nav id="worknav"></nav><div class="sidefoot">一个关于遗失、存在与记忆的故事。<br><a href="https://github.com/Tera-Dark/midnight-lost-and-found" target="_blank" rel="noopener">GitHub · 查看项目</a></div></aside><main class="main"><div class="topbar"><span>LOST OBJECTS / REMEMBERED PEOPLE</span><button id="fontbtn" aria-label="切换字号">Aa · 字号</button></div><div id="home" class="mast"><div class="eyebrow">ORIGINAL URBAN FANTASY / WORLD ARCHIVE</div><h1>凌晨<br>失物处</h1><div class="subtitle">MIDNIGHT LOST & FOUND</div><div class="quote">“请将他归还给她。<br>认领期限：永久。”</div><p>一座再寻常不过的现代城市。一间只在凌晨接待来客的失物事务所。这里收藏着过期的车票、无法保存的照片，以及那些连主人也不再记得的过去。</p><p>苏杳替别人找回遗失之物；江寻却是一个连自己曾经存在过都无法证明的人。</p><div class="chips"><span>现代都市奇幻</span><span>微悬疑</span><span>原创 OC</span><span>角色驱动</span></div><div class="featuregrid" id="features"></div></div><div id="reader" class="reading hidden"><div class="sectiontitle"><div class="chapterlabel" id="chapterlabel">ARCHIVE</div><h2 id="readtitle"></h2></div><div id="notice"></div><div id="article" class="article" aria-live="polite"></div><div class="controls"><button id="prev">← 上一章</button><button id="next">下一章 →</button></div></div><footer>© Midnight Lost & Found · Tera-Dark · 所有设定与角色归原创作者所有</footer></main></div>
 <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script><script>
 const pages=[{id:"home",title:"首页 · 作品序言",tag:"INTRO"},{id:"world",title:"世界观",file:"docs/01-world-core.md",tag:"WORLD / CANON"},{id:"characters",title:"人物档案",file:"site/characters.md",tag:"CHARACTERS / CANON"},{id:"suyao",title:"苏杳 · 人设卡",file:"site/su-yao-card.md",tag:"CHARACTER / 001"},{id:"jiang",title:"江寻 · 人设卡",file:"site/jiang-xun-card.md",tag:"CHARACTER / 002"},{id:"office",title:"凌晨事务所",file:"site/office.md",tag:"LOCATION / CANON"},{id:"cases",title:"失物档案",file:"site/lost-property.md",tag:"CASES / SEEDS"},{id:"updates",title:"更新手记",file:"site/updates.md",tag:"CHANGELOG"}];
@@ -15,4 +111,86 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-id]");if(b
 function markdownFallback(t){return '<pre style="white-space:pre-wrap;word-wrap:break-word;font:inherit">'+esc(t)+'</pre>'}
 async function show(){let id=decodeURIComponent(location.hash.slice(1))||"home";let p=all.find(x=>x.id===id)||pages[0];document.querySelectorAll(".navbutton").forEach(x=>x.classList.toggle("active",x.dataset.id===p.id));el("sidebar").classList.remove("open");el("home").classList.toggle("hidden",p.id!=="home");el("reader").classList.toggle("hidden",p.id==="home");document.title=(p.id==="home"?"凌晨失物处":p.title+" · 凌晨失物处");window.scrollTo(0,0);if(p.id==="home")return;el("readtitle").textContent=p.title;el("chapterlabel").textContent=p.tag;el("notice").innerHTML=p.draft?'<div class="notice">创作讨论资料 · 本页不是已确认正史，部分方案仍等待作者决定。</div>':p.id==="cases"?'<div class="notice">故事种子 · 以下为可供拓展的案件创意，并非已发生的正史。</div>':'';el("article").innerHTML='<p class="loading">正在读取最新档案…</p>';let idx=all.findIndex(x=>x.id===p.id);el("prev").disabled=idx===0;el("next").disabled=idx===all.length-1;el("prev").onclick=()=>location.hash=all[Math.max(0,idx-1)].id;el("next").onclick=()=>location.hash=all[Math.min(all.length-1,idx+1)].id;try{const url=repo+p.file+'?v='+Date.now();const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);const md=await res.text();if((location.hash.slice(1)||"home")!==p.id)return;const raw=window.marked?window.marked.parse(md,{breaks:true}):markdownFallback(md);const safe=window.DOMPurify?window.DOMPurify.sanitize(raw):raw;el("article").innerHTML=safe;}catch(e){el("article").innerHTML='<p>暂时无法读取档案，可能是网络或访问限制。</p><p><a target="_blank" rel="noopener" href="https://github.com/Tera-Dark/midnight-lost-and-found/blob/main/'+p.file+'">前往 GitHub 直接阅读本章 →</a></p>'}}
 window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar").classList.toggle("open");el("fontbtn").onclick=()=>document.body.classList.toggle("large");window.addEventListener("scroll",()=>{let total=document.documentElement.scrollHeight-innerHeight;el("progress").style.width=(total>0?scrollY/total*100:0)+"%"});show();
-</script><script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script></body></html>
+</script><script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+<div class="menubg" id="menubg"></div>
+<nav class="mobilebottom" id="mobilebottom" aria-label="手机底部导航">
+ <a href="#home" data-mob="home"><svg viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v9H3z M9 20v-7h6v7"/></svg><span>首页</span></a>
+ <a href="#characters" data-mob="characters"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><path d="M2 20v-2a6 6 0 0 1 12 0v2 M16 7a3 3 0 0 1 0 6 M17 14c3 0 5 2 5 5v1"/></svg><span>角色</span></a>
+ <a href="#world" data-mob="world"><svg viewBox="0 0 24 24"><path d="M12 3 3 7v13l9-4 9 4V7z M12 3v13 M3 7l9 4 9-4"/></svg><span>世界观</span></a>
+ <a href="#cases" data-mob="cases"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="15" rx="1"/><path d="M3 10h18 M9 15h6"/></svg><span>失物档案</span></a>
+</nav>
+<script>
+(()=>{
+ const categories=[
+ ["START HERE / 开始阅读",["home","characters","world"]],
+ ["CHARACTERS / 人物与关系",["suyao","jiang"]],
+ ["ARCHIVES / 案件与事务所",["office","cases"]],
+ ["UPDATES / 更新记录",["updates"]],
+ ["WORKSHOP / 作者创作区 · 非正史",["proposal","engine","decisions"]]
+ ];
+ const s=document.getElementById("sidebar");
+ const nav=document.getElementById("nav"), worknav=document.getElementById("worknav");
+ // Replace old flat navigation with grouped information architecture
+ [...s.querySelectorAll(".navsection")].forEach(n=>n.remove());
+ const maker=arr=>arr.map(id=>{
+   const page=all.find(x=>x.id===id);
+   return '<button class="navbutton" data-id="'+id+'"><span>'+page.title+'</span></button>';
+ }).join("");
+ nav.innerHTML=categories.map(group=>'<div class="navgroup"><div class="navsection">'+group[0]+'</div>'+maker(group[1])+'</div>').join("");
+ worknav.innerHTML="";
+ const img=(who)=>"assets/"+who+".webp";
+ const preview=(id,name,en,tagline,description)=>'<a class="cast-link" href="#'+id+'"><div class="img"><img src="'+img(id==="suyao"?"su-yao":"jiang-xun")+'" alt="'+name+'的全身人物立绘" loading="lazy" onerror="this.style.display=\'none\'"></div><div class="label"><small>'+en+'</small><strong>'+name+'</strong><p>'+tagline+'</p></div></a>';
+ const home=document.getElementById("home");
+ home.insertAdjacentHTML("beforeend",
+ '<div class="intro-heading">CHARACTER ARCHIVE / 主要登场人物</div><div class="cast-grid">'+
+ preview("suyao","苏杳","FILE 001 / SU YAO","替别人找回过去的人")+
+ preview("jiang","江寻","FILE 002 / JIANG XUN","正在被世界遗忘的人")+
+ '</div><p style="font-size:12px;color:var(--muted);margin-top:8px">人物立绘与设定持续更新 · 点击卡片阅读完整角色档案</p>');
+ const reader=document.getElementById("reader");
+ const article=document.getElementById("article");
+ const hero=(id)=>{
+  const isSu=id==="suyao";
+  return '<section class="character-hero"><div class="portrait"><img src="'+img(isSu?"su-yao":"jiang-xun")+'" alt="'+(isSu?"苏杳":"江寻")+'最新角色全身立绘" onerror="this.alt=\'角色图暂时无法加载\';this.style.opacity=\'.3\'"></div>'+
+   '<div class="info"><span>OFFICIAL CHARACTER / '+(isSu?"001":"002")+'</span><h3>'+(isSu?"苏杳":"江寻")+'</h3><p>'+(isSu?"凌晨失物事务所<br>夜班档案员 / 失物复原师":"零号失主<br>事务所非正式搭档")+'</p><p>'+(isSu?"冷静、知性、克制":"随和、敏锐、隐约疲惫")+'</p><a href="'+img(isSu?"su-yao":"jiang-xun")+'" target="_blank" rel="noopener">查看原始立绘 →</a></div></section>';
+ };
+ const toc=()=>Array.from(article.querySelectorAll("h2")).filter(h=>!h.closest("details")).map((h,i)=>{h.id="section-"+i;return '<a href="#section-'+i+'" data-jump="'+h.id+'">'+h.textContent+'</a>'}).join("");
+ const decorate=()=>{
+  const id=location.hash.slice(1);
+  if(!["suyao","jiang","characters"].includes(id)){
+    document.querySelectorAll(".character-hero,.cast-grid.reader-cast,.chapter-index").forEach(x=>x.remove());return;
+  }
+  if(article.querySelector(".loading")||!article.children.length)return;
+  const old=reader.querySelectorAll(".character-hero,.reader-cast,.chapter-index");
+  old.forEach(x=>x.remove());
+  if(id==="characters"){
+    article.insertAdjacentHTML("afterbegin",'<div class="cast-grid reader-cast">'+
+      preview("suyao","苏杳","FILE 001 / SU YAO","夜班档案员")+
+      preview("jiang","江寻","FILE 002 / JIANG XUN","零号失主")+'</div>');
+  } else {
+    article.insertAdjacentHTML("afterbegin",hero(id));
+    const h=[...article.querySelectorAll("h2")].find(x=>x.textContent.includes("原始画图提示词"));
+    if(h){
+      const details=document.createElement("details");
+      const summary=document.createElement("summary");summary.textContent="展开查看原始绘画提示词";
+      details.append(summary);
+      let n=h.nextSibling;
+      while(n && !(n.nodeType===1 && /^H[12]$/.test(n.nodeName))){const next=n.nextSibling;details.append(n);n=next;}
+      h.replaceWith(details);
+    }
+  }
+  const links=toc();
+  if(links)article.insertAdjacentHTML("afterbegin",'<nav class="chapter-index" aria-label="本页章节">'+links+'</nav>');
+ };
+ const observer=new MutationObserver(()=>{observer.disconnect();decorate();observer.observe(article,{childList:true,subtree:false});});
+ observer.observe(article,{childList:true,subtree:false});
+ document.addEventListener("click",e=>{
+   const t=e.target.closest("[data-jump]");
+   if(t){e.preventDefault();document.getElementById(t.dataset.jump)?.scrollIntoView({behavior:"smooth",block:"start"});}
+ });
+ document.getElementById("menubg").onclick=()=>s.classList.remove("open");
+ const choose=()=>{let id=location.hash.slice(1)||"home";if(["suyao","jiang"].includes(id))id="characters";if(id==="office")id="world";document.querySelectorAll(".mobilebottom a").forEach(a=>a.classList.toggle("on",a.dataset.mob===id));setTimeout(decorate,60);};
+ window.addEventListener("hashchange",choose);
+ choose();
+})();
+</script>
+</body></html>
