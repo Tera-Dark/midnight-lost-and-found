@@ -6,6 +6,7 @@ on:
       - "index.html"
       - "site/**"
       - "assets/**"
+      - "scripts/**"
       - "docs/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -24,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Verify reader
+        run: node scripts/verify-site.mjs
       - uses: actions/configure-pages@v5
         with:
           enablement: true
