@@ -151,7 +151,7 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
  const hero=(id)=>{
   const isSu=id==="suyao";
   return '<section class="character-hero"><div class="portrait"><img src="'+img(isSu?"su-yao":"jiang-xun")+'" alt="'+(isSu?"苏杳":"江寻")+'最新角色全身立绘" onerror="this.alt=\'角色图暂时无法加载\';this.style.opacity=\'.3\'"></div>'+
-   '<div class="info"><span>OFFICIAL CHARACTER / '+(isSu?"001":"002")+'</span><h3>'+(isSu?"苏杳":"江寻")+'</h3><p>'+(isSu?"凌晨失物事务所<br>夜班档案员 / 失物复原师":"零号失主<br>事务所非正式搭档")+'</p><p>'+(isSu?"冷静、知性、克制":"随和、敏锐、隐约疲惫")+'</p><a href="'+img(isSu?"su-yao":"jiang-xun")+'" target="_blank" rel="noopener">查看原始立绘 →</a></div></section>';
+   '<div class="info"><span>OFFICIAL CHARACTER / '+(isSu?"001":"002")+'</span><h3>'+(isSu?"苏杳":"江寻")+'</h3><p>'+(isSu?"凌晨失物事务所<br>夜班档案员 / 失物复原师":"零号失主<br>事务所非正式搭档")+'</p><p>'+(isSu?"冷静、知性、克制":"随和、敏锐、隐约疲惫")+'</p><a href="'+img(isSu?"su-yao":"jiang-xun")+'" target="_blank" rel="noopener">查看角色立绘 →</a></div></section>';
  };
  const toc=()=>Array.from(article.querySelectorAll("h2")).filter(h=>!h.closest("details")).map((h,i)=>{h.id="section-"+i;return '<a href="#section-'+i+'" data-jump="'+h.id+'">'+h.textContent+'</a>'}).join("");
  const decorate=()=>{
@@ -187,8 +187,16 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
    const t=e.target.closest("[data-jump]");
    if(t){e.preventDefault();document.getElementById(t.dataset.jump)?.scrollIntoView({behavior:"smooth",block:"start"});}
  });
- document.getElementById("menubg").onclick=()=>s.classList.remove("open");
- const choose=()=>{let id=location.hash.slice(1)||"home";if(["suyao","jiang"].includes(id))id="characters";if(id==="office")id="world";document.querySelectorAll(".mobilebottom a").forEach(a=>a.classList.toggle("on",a.dataset.mob===id));setTimeout(decorate,60);};
+ const backdrop=document.getElementById("menubg");
+ const toggle=document.getElementById("menubtn");
+ const closeMenu=()=>{s.classList.remove("open");backdrop.classList.remove("open");toggle.setAttribute("aria-expanded","false");};
+ toggle.setAttribute("aria-controls","sidebar");
+ toggle.setAttribute("aria-expanded","false");
+ toggle.addEventListener("click",()=>{const isOpen=s.classList.contains("open");backdrop.classList.toggle("open",isOpen);toggle.setAttribute("aria-expanded",String(isOpen));});
+ backdrop.onclick=closeMenu;
+ document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu();});
+ document.querySelectorAll("#nav button").forEach(b=>b.addEventListener("click",closeMenu));
+ const choose=()=>{let id=location.hash.slice(1)||"home";if(["suyao","jiang"].includes(id))id="characters";if(id==="office")id="world";closeMenu();document.querySelectorAll(".mobilebottom a").forEach(a=>a.classList.toggle("on",a.dataset.mob===id));setTimeout(decorate,60);};
  window.addEventListener("hashchange",choose);
  choose();
 })();
