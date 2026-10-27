@@ -138,7 +138,7 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
  }).join("");
  nav.innerHTML=categories.map(group=>'<div class="navgroup"><div class="navsection">'+group[0]+'</div>'+maker(group[1])+'</div>').join("");
  worknav.innerHTML="";
- const img=(who)=>"assets/"+who+".webp";
+ const img=(who)=>who==="jiang-xun"?"assets/jiang-xun-v2.webp":"assets/su-yao.webp";
  const preview=(id,name,en,tagline,description)=>'<a class="cast-link" href="#'+id+'"><div class="img"><img src="'+img(id==="suyao"?"su-yao":"jiang-xun")+'" alt="'+name+'的全身人物立绘" loading="lazy" onerror="this.style.display=\'none\'"></div><div class="label"><small>'+en+'</small><strong>'+name+'</strong><p>'+tagline+'</p></div></a>';
  const home=document.getElementById("home");
  home.insertAdjacentHTML("beforeend",
