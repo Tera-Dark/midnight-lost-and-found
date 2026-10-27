@@ -1,33 +1,38 @@
-# 苏杳 · 人物设定卡
+# 苏杳 · Su Yao
 
-> CHARACTER / 001 · 《凌晨失物处》 · 2026.10.27 新版造型
+> CHARACTER FILE 001 · 当前造型依据作者 2026-10-27 正式提示词。人物核心经历沿用 v1.0，未确定的谜底继续保留。
 
-**姓名**：苏杳（Su Yao）  
 **身份**：凌晨失物事务所夜班档案员 / 失物复原师  
 **年龄**：暂定约 24 岁  
-**人物气质**：冷静 · 敏锐 · 克制 · 温柔 · 成熟知性
+**气质**：冷静、敏锐、克制、礼貌、温柔；成熟、精致，带些中性风格  
+**主题句**：她替别人找回遗失之物，却不愿寻找自己的过去。
 
-> 她替别人找回遗失之物，却不愿寻找自己的过去。
+## 外貌与服装 · 现行版
 
-## 新版人物形象
+- **脸与头发**：浅肤色、柔和椭圆脸，棕色半垂眼；深棕色层次波波头，偏分刘海、微卷发梢，一侧别至耳后，单条低垂长编发系褪色钢蓝色丝带。
+- **耳饰**：不对称耳饰，一侧珍珠耳钉，一侧银色垂坠耳饰。
+- **上装**：藏蓝细竖条纹西装，**正面完全扣合**，轮廓笔直、腰部轻微收束，结构感肩线略宽；宽大翻折袖口露出窄窄的白色内袖。内搭仅露出象牙白高领。
+- **配饰**：古银色蓝宝石胸针、细珍珠项链、复古银色腕表。
+- **下装**：炭灰高腰修长直筒半身裙，窄侧开衩；黑色低跟皮鞋。
+- **姿势**：微侧身站立，姿态放松，双手自然交叠于身前，淡淡微笑。
 
-**发型**：深灰褐色短中发，不对称偏分长刘海覆盖部分眼睛；一侧编发向后收束，灰蓝色缎带自然垂落。  
-**神情**：浅棕灰色眼睛，安静沉稳、略有距离感。  
-**上装**：深海军蓝细条纹收腰双排扣西服，立体肩线、大翻领、宽大灰色翻折袖口；白色高领内搭。  
-**下装**：灰褐色修长半身长裙，局部开衩与不对称裙片，深灰色袜装配黑色尖头鞋。  
-**饰品**：蓝色宝石感金属胸针、银色链饰、腕表、耳饰、戒指。  
-**视觉配色**：海军蓝、灰褐、灰蓝、米白、冷银。
+## 角色性格
 
-## 性格与行为
+她习惯在深夜整理遗失之物的证据，用实际行动而非夸张的语言照顾来访者。她记得自己十九岁以后的经历，却无法找到更早的可靠档案。面对江寻，她成为目前唯一能够稳定记住他的人。
 
-工作认真而有条理，观察力极强；待人礼貌，但不轻易谈自己的过去。比起说出漂亮的话，她更习惯做一件具体的小事——再核对一条线索，替夜晚的来客保留一盏灯，把险些消失的名字写下来。
+## 视觉锚点
 
-## 未解之谜
+**发型**：偏分波波头 + 单条低编发 + 灰蓝缎带。  
+**服设**：扣合的藏蓝细竖纹西装 + 象牙白高领 + 炭灰长裙。  
+**配饰**：不对称耳饰、蓝宝石感古银胸针、复古腕表。  
+**配色**：藏蓝 / 炭灰 / 象牙白 / 褪色钢蓝 / 古银。
 
-她能稳定地记住逐渐被别人遗忘的江寻；她十九岁之前的个人档案却几乎不存在。这两件事是否有关，尚未揭晓。
+## 原始画图提示词 · 锁定存档
 
-## 视觉设计备注
+```text
+1girl, solo, original character, full body, standing, white background, three-quarter view, looking at viewer, adult woman, androgynous fashion, elegant, refined, slender, tall female, fair skin, soft oval face, brown eyes, half-closed eyes, gentle expression, faint smile, dark brown hair, layered bob cut, side-swept bangs, slightly wavy hair, hair tucked behind ear, single long braid, low braid, faded steel-blue hair ribbon, mismatched earrings, pearl stud earring, silver drop earring, white turtleneck, navy blue pinstripe jacket, tailored jacket, buttoned jacket, closed jacket, high collar, structured shoulders, slightly oversized shoulders, long sleeves, wide folded cuffs, white undersleeves, fitted waist, straight silhouette, vertical stripes, antique silver brooch, small blue gemstone, delicate pearl necklace, vintage silver wristwatch, charcoal grey high-waist skirt, long straight skirt, narrow side slit, structured fabric, black leather shoes, low heels, elegant standing pose, contrapposto, relaxed shoulders, hands resting naturally in front
 
-本卡按**作者 2026-10-27 新上传立绘**描述，取代早期服设在当前正式造型中的位置。当前文本**不**擅自推断超能力、组织身份或隐藏经历。眼睛具体标准色、是否将发饰设为永久锚点等仍待作者确认。
+Her dark navy pinstripe jacket is fully buttoned across the torso, creating a clean, uninterrupted front with a gently tailored waist and understated masculine tailoring. Only the ivory turtleneck collar and narrow white undersleeves remain visible. Her softly layered short hair conceals a single long braid tied with a faded steel-blue ribbon, while an antique silver brooch and vintage wristwatch quietly hint at her work as a night archivist.
+```
 
-**配套完整图像版人物卡**：已在创作对话中制作，可单独分享；此仓库当前保存文字版资料。
+**版本说明**：本版覆盖之前关于银白色挑染、酒红主配色、外套敞开、灰褐眼睛等冲突描述。早期旧服设只作历史方案参考。
