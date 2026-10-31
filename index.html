@@ -138,8 +138,8 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
  }).join("");
  nav.innerHTML=categories.map(group=>'<div class="navgroup"><div class="navsection">'+group[0]+'</div>'+maker(group[1])+'</div>').join("");
  worknav.innerHTML="";
- const img=(who)=>who==="jiang-xun"?"assets/jiang-xun-v2.webp":"assets/su-yao.webp";
- const preview=(id,name,en,tagline,description)=>'<a class="cast-link" href="#'+id+'"><div class="img"><img src="'+img(id==="suyao"?"su-yao":"jiang-xun")+'" alt="'+name+'的全身人物立绘" loading="lazy" onerror="this.style.display=\'none\'"></div><div class="label"><small>'+en+'</small><strong>'+name+'</strong><p>'+tagline+'</p></div></a>';
+ const img=(who)=>who==="jiang-xun"?"assets/jiang-xun-v3.webp":"assets/su-yao-v2.webp";
+ const preview=(id,name,en,tagline,description)=>'<a class="cast-link" href="#'+id+'"><div class="img"><img src="'+img(id==="suyao"?"su-yao":"jiang-xun")+'" alt="'+name+'的人物立绘" loading="lazy" onerror="this.style.display=\'none\'"></div><div class="label"><small>'+en+'</small><strong>'+name+'</strong><p>'+tagline+'</p></div></a>';
  const home=document.getElementById("home");
  home.insertAdjacentHTML("beforeend",
  '<div class="intro-heading">CHARACTER ARCHIVE / 主要登场人物</div><div class="cast-grid">'+
@@ -150,7 +150,7 @@ window.addEventListener("hashchange",show);el("menubtn").onclick=()=>el("sidebar
  const article=document.getElementById("article");
  const hero=(id)=>{
   const isSu=id==="suyao";
-  return '<section class="character-hero"><div class="portrait"><img src="'+img(isSu?"su-yao":"jiang-xun")+'" alt="'+(isSu?"苏杳":"江寻")+'最新角色全身立绘" onerror="this.alt=\'角色图暂时无法加载\';this.style.opacity=\'.3\'"></div>'+
+  return '<section class="character-hero"><div class="portrait"><img src="'+img(isSu?"su-yao":"jiang-xun")+'" alt="'+(isSu?"苏杳":"江寻")+'最新角色立绘" onerror="this.alt=\'角色图暂时无法加载\';this.style.opacity=\'.3\'"></div>'+
    '<div class="info"><span>OFFICIAL CHARACTER / '+(isSu?"001":"002")+'</span><h3>'+(isSu?"苏杳":"江寻")+'</h3><p>'+(isSu?"凌晨失物事务所<br>夜班档案员 / 失物复原师":"零号失主<br>事务所非正式搭档")+'</p><p>'+(isSu?"冷静、知性、克制":"随和、敏锐、隐约疲惫")+'</p><a href="'+img(isSu?"su-yao":"jiang-xun")+'" target="_blank" rel="noopener">查看角色立绘 →</a></div></section>';
  };
  const toc=()=>Array.from(article.querySelectorAll("h2")).filter(h=>!h.closest("details")).map((h,i)=>{h.id="section-"+i;return '<a href="#section-'+i+'" data-jump="'+h.id+'">'+h.textContent+'</a>'}).join("");
