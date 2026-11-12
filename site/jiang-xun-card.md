@@ -1,49 +1,51 @@
 # 江寻 · Jiang Xun
 
-> CHARACTER FILE 002 · **现行人物造型 v3.0（2026-10-31）**。本版以作者最新上传的角色图和 NAI5 提示词为造型依据；性格、经历及异常世界观维持既有正史。站点已展示 v3 立绘。
+> CHARACTER FILE 002 · **现行人物造型 v4.0（2026-11-12）**。本版以作者最新提供的角色立绘与 NAI5 提示词为造型依据；性格、经历及异常世界观维持既有正史。站点已展示 v4 立绘。
 
 **身份**：零号失主 / 凌晨失物事务所非正式搭档  
 **年龄**：外表约 27 岁；真实年龄未知  
 **气质**：随和、敏锐、克制，擅长用玩笑隐藏疲惫  
 **主题句**：他想找到一个能够证明自己曾经存在过的人。
 
-## 外貌与服装 · v3.0
+## 外貌与服装 · v4.0
 
-- **身形与面容**：高挑修长、肩宽腰细；浅肤色；略显疲惫的灰色下垂眼，双眼可见，淡淡笑意。
-- **发型**：纯黑、蓬松、层次丰富的中长狼尾发，轻微中分的薄碎刘海，耳侧与后颈保留长发束。
-- **头部配饰**：黑色太阳镜随意架在头顶，不遮挡灰眼；黑色耳钉。
-- **外套**：灰褐色（taupe）麂皮短款夹克，宽折叠领、立体肩线、宽松长袖、**正面拉链完全敞开**。
-- **内搭**：黑色贴身短款上衣，露出腰腹及侧腰；不再使用旧版黑衬衫浅 V 领。
-- **纹身**：腰侧与下肋区域的非对称纹身，以黑色为主、暗红色少量点缀；将尖刺状异形 tribal 造型与沿身体曲线向下延展的流线结构融合。纹样自然贴合侧腰，不能像平面贴纸。
-- **下装**：炭灰色高腰褶饰阔腿长裤，黑腰带配银色扣头；黑色皮鞋。
-- **其他配饰**：银戒指；延续旧版右手食指磨损银戒作为人物细节。
-- **姿态**：重心偏侧，一手插袋、另一手自然下垂，微微歪头看向观众。
+- **身形与面容**：修长清瘦、小腰窄胯；浅肤色；金褐色（amber）眼睛，垂眼带着一点倦意，嘴角有一丝淡淡的笑意。
+- **发型**：纯黑长发，蓬松凌乱地扎成高位马尾；一侧留一条长辫垂在右肩前，碎发自然滑落修饰脸颊。
+- **头部配饰**：多枚银色耳饰（耳骨与耳垂）；**取消 v3.0 的头顶墨镜**。
+- **颈部**：黑色皮质项圈，正面垂一枚银色十字架吊坠；脖子上挂银色头戴式耳机。
+- **外套**：白色短款飞行员夹克，**正面敞开**，袖口与下摆保留松弛的廓形。
+- **内搭**：黑色紧身短款背心，露出腰腹；左侧腹部有一枚黑色 tribal 风格纹身。
+- **下装**：深灰近黑宽松长裤，低腰系于胯上；黑色皮带，另有多条皮质绑带与垂坠链条，链条末端挂着小钥匙挂件。
+- **其他配饰**：银戒；延续旧版右手食指磨损银戒作为人物细节。
+- **鞋**：黑色皮鞋。
+- **姿态**：重心偏侧，一手插袋、另一手自然垂下，平静地看向观众。
 
 ## 角色性格与剧情身份
 
 江寻会逐渐从其他人的记忆中淡去，现代记录系统也难以稳定保存他的身份信息。他以玩笑掩饰处境，不愿把被遗忘的痛苦转嫁给别人。苏杳目前是唯一能稳定记住他的人，二人作为夜班搭档一起调查异常失物。
 
-**注意**：纹身是作者确认的**视觉造型**，其来历、特殊能力及是否与失忆异常相关均未确定，不擅自设为世界观正史。
+**注意**：纹身、耳机与链条上的钥匙挂件都是作者确认的**视觉造型**，其来历、特殊能力及是否与失忆异常相关均未确定，不擅自设为世界观正史。
 
 ## 视觉锚点
 
-**头部**：纯黑中长狼尾发、半露双眼的碎刘海、灰色倦眼、头顶黑色墨镜。  
-**服装**：敞开拉链的灰褐色麂皮短夹克、黑色露腰短上衣、炭灰色高腰阔腿裤。  
-**识别细节**：腰侧黑红尖刺流线纹身、黑耳钉、银扣皮带、银戒。  
-**配色**：灰褐 / 黑 / 炭灰 / 银 / 局部暗红。
+**头部**：纯黑蓬乱长发 + 高马尾 + 肩前长辫、金褐倦眼、多枚银耳饰。  
+**服装**：敞开的白色短款飞行员夹克、黑色紧身露腰短背心、深灰低腰宽裤 + 皮带绑带链条。  
+**识别细节**：左侧腹部黑色 tribal 纹身、黑皮项圈配十字架吊坠、颈间银色耳机、银戒。  
+**配色**：白 / 黑 / 深灰 / 银。
 
-## NAI5 · 作者锁定提示词（v3.0）
+## NAI5 · 造型提示词（v4.0）
 
 ```text
-1boy, solo, original character, full body, standing, white background, adult male, 27 years old, handsome, bishounen, tall male, slender male, broad shoulders, slim waist, long legs, pale skin, delicate masculine features, narrow eyes, droopy eyes, grey eyes, tired eyes, both eyes visible, subtle smile, relaxed expression, jet black hair, medium hair, wolf cut, layered hair, messy hair, fluffy hair, center-parted bangs, wispy bangs, hair framing face, long sidelocks, long hair at nape, mullet, black stud earrings, sunglasses, black sunglasses, sunglasses on head, taupe jacket, suede jacket, cropped jacket, short jacket, wide collar, folded collar, structured shoulders, loose sleeves, long sleeves, open jacket, unzipped jacket, front zipper, black inner shirt, black cropped shirt, tight shirt, fitted shirt, exposed midriff, visible waist, bare midriff, toned abdomen, side tattoo, waist tattoo, rib tattoo, black and dark red tattoo, tribal tattoo, abstract tattoo, organic tattoo, thorny tattoo, curved tattoo, flowing tattoo, asymmetrical tattoo, intricate tattoo, tattoo along waistline, tattoo on side waist, tattoo on ribs, high-waist pants, charcoal grey pants, wide-leg pants, pleated pants, black belt, silver belt buckle, black leather shoes, silver ring, relaxed standing pose, contrapposto, one hand in pocket, other arm hanging naturally, head slightly tilted, looking at viewer
+1boy, solo, male focus, black hair, long hair, messy hair, high ponytail, side braid, braid over shoulder, multiple ear piercings, earrings, choker, cross pendant, headphones, around neck, white jacket, cropped jacket, open jacket, black crop top, midriff, abs, navel, tattoo, abdominal tattoo, black pants, loose pants, belt, chain, straps, hand in pocket, black shoes, standing, full body, white background, looking at viewer
 
-A dark organic tattoo grows from the side of his waist and lower ribs, following the curve of the torso. The design combines sharp thorn-like tribal forms with flowing elongated lines, blending black and deep dark red accents. The tattoo wraps naturally along the side of the body instead of sitting like a flat sticker. His sunglasses rest casually on top of his head, preserving his tired grey-eyed expression.
+A slim young man with messy black hair tied in a high ponytail, a long braid falling over his right shoulder and loose strands framing his sharp face. He has multiple silver ear piercings, a black leather choker with a dangling cross pendant, and silver over-ear headphones resting around his neck. He wears a white cropped bomber jacket left open over a tight black crop top that exposes his toned midriff and a black tribal tattoo on the left side of his abdomen. Dark grey-black loose pants with a black belt, multiple leather straps and hanging chains (including a small key charm) sit low on his hips. One hand is casually tucked into his pocket. He stands in a relaxed full-body pose against a pure white background, expression calm with a slight smirk.
 ```
 
 ## 版本记录
 
-- **v3.0（2026-10-31）**：作者确认新版人物图与完整提示词；短夹克拉链敞开、改黑色露腰短内搭、加入头顶墨镜与黑红融合式腰侧纹身；取消旧版黑衬衫浅 V 领。
-- **v2.0（2026-10-27）**：确定双眼可见、中分薄碎刘海、宽翻领麂皮短夹克、黑衬衫浅 V 领；现为历史服装版本。
+- **v4.0（2026-11-12）**：作者提供新版正式立绘与完整 NAI5 提示词；改为黑发高马尾 + 肩前长辫、多枚银耳饰、黑皮项圈配十字架、颈间银色耳机、白色短款飞行员夹克配黑色露腰背心、左侧腹部 tribal 纹身、低腰宽裤配绑带与钥匙链条。取消 v3.0 的灰褐麂皮夹克与头顶墨镜。
+- **v3.0（2026-10-31）**：敞开拉链的灰褐麂皮短夹克、黑色露腰短内搭、头顶墨镜、腰侧黑红尖刺流线纹身。现为历史版本。
+- **v2.0（2026-10-27）**：双眼可见、中分薄碎刘海、宽翻领麂皮短夹克、黑衬衫浅 V 领。现为历史版本。
 - **历史保留**：空白门禁卡仍为剧情可选道具，不强制出现在人物立绘中。
 
-> **立绘**：[现行 v3 立绘](../assets/jiang-xun-v3.webp) · [v2 历史立绘](../assets/jiang-xun-v2.webp)。
+> **立绘**：[现行 v4 立绘](../assets/jiang-xun-v4.webp) · [v3 历史立绘](../assets/jiang-xun-v3.webp) · [v2 历史立绘](../assets/jiang-xun-v2.webp)。
